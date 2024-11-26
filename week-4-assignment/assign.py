@@ -34,7 +34,6 @@ def handle_file_errors():
         print(f"An unexpected error occurred: {e}")
 
 
-# Main execution logic
 def main():
     input_filename = input("Enter the input filename to read: ")
     output_filename = input("Enter the output filename to save modified content: ")
